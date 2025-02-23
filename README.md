@@ -29,5 +29,5 @@ as a cs peer mentor, i work with professors in their classes to help out their s
 
 as a blmi peer mentor, i work with underrepresented students. i talk to them about mental health and ways to succeed academically. 
 
-i'm not the best academically 
+i'm not the "best" academically - i've gotten some high grades, some low grades. but what i have always had is a passion and drive for helping other people. i want to be the person i wish i had when i would struggle with classes.
 
