@@ -1,4 +1,9 @@
-html {
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
     font-size: 18px;
+    line-height: 1.2;
+    padding:10px;
 }
 
