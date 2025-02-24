@@ -7,8 +7,11 @@ it's hosted at https://shawnevans77.github.io/cis-1115/
 ## what is in it
 this website has information about the course.
 
-it also has resources for students to learn class material.
+it also has resources for students to learn class material. if you're struggling in the class, just hop on here for a quick refresher. if you already know everything and just wanna brush up that's fine too.
 
+i know there's a million java tutorials online. but isn't it nice to have something specifically designed for your school?
+
+even if you're not in brooklyn college, i hope you get some value out of my little site.
 
 ## why did i make this
 
