@@ -3,7 +3,6 @@ import './global.css';
 import type { Metadata } from 'next'
  
 // These styles apply to every route in the application
-import './globals.css'
  
 export const metadata: Metadata = {
   title: 'Create Next App',
