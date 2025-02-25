@@ -1,5 +1,9 @@
 import React from 'react';
 
-export default function Page() {
-    return <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
-  }
+export default function Home() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">Welcome to my fancy page!</h1>
+    </div>
+  );
+}

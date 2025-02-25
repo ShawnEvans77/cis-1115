@@ -1,0 +1,8 @@
+# Ignore Git folder
+.git/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore node mules
+node_modules
