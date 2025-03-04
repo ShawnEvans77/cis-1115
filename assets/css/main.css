@@ -1,29 +1,40 @@
 /* body */
 body {
     font-family: Arial, sans-serif; /* page is in arial for time being */
-    padding-left: 1.2rem;
-    margin-left: 365px; 
+    margin-left: 400px; 
 }
 
+/* paragraph font size */
 p {
     font-size: 2.2rem;
+}
+
+.pagetwo {
+    margin-top: 140px;
 }
 
 /* title */
 header {
     padding-top: 3.4rem;
-
 }
+
 /* main title */
 header h1 {
     font-size: 6.2rem;  
 }
+
 /* subtitle */
 header p {
     font-size: 2.0rem;
 }
 
+h1 {
+    font-size: 3.6rem;
+}
 
+h2 {
+    font-size: 3.1rem;
+}
 
 /* Navbar Styling */
 

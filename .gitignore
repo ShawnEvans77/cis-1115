@@ -4,5 +4,6 @@
 # Ignore VSCode settings
 .vscode/
 
-# Ignore node mules
-node_modules
+#Ignore reference
+reference.txt
+
