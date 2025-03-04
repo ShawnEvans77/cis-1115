@@ -1,14 +1,37 @@
+/* body */
+body {
+    font-family: Arial, sans-serif; /* page is in arial for time being */
+}
+
+/* title */
+header {
+    padding-top: 3.4rem;
+    padding-left: 1.2rem;
+    margin-left: 350px; 
+}
+/* main title */
+header h1 {
+    font-size: 6.2rem;  
+}
+/* subtitle */
+header p {
+    font-size: 2.0rem;
+}
+
+
+
 /* Navbar Styling */
  
 nav {
 
-    width: 330px;
+    width: 350px;
     position: fixed;
     top: 0; /* page top */
     left: 0; /* left navbar like x */
     background-color: #efe4e4;
     height: 100vh;
-    padding: 20px 0;
+    padding: 60px 0;
+    font-weight: bold;
 }
 
 nav ul {
@@ -18,29 +41,13 @@ nav ul {
 }
 
 nav ul li {
-    margin: 20px;
+    margin: 40px;
 }
 
 nav ul li a {
-    font-size: 3.1rem;
+    font-size: 2.2rem;
     padding: 10px 0 10px 15px; 
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 
-header {
-    padding-top: 3.4rem;
-    padding-left: 1.2rem;
-    margin-left: 350px; 
-}
 
-header h1 {
-    font-size: 6.2rem;  
-}
-
-header p {
- 
-    font-size: 2.0rem;
-}
