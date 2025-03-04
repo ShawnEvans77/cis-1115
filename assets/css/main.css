@@ -1,9 +1,54 @@
+/* Navbar Styling */
+ 
+nav {
 
-/* Body Styling */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.2;
-    padding:10px;
+    width: 330px;
+    position: fixed;
+    top: 0; /* page top */
+    left: 0; /* left navbar like x */
+    background-color: #efe4e4;
+    height: 100vh;
+    padding: 20px 0;
+
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    font-size: 3.1rem;
+    padding: 10px 0 10px 15px; 
+}
+
+nav ul li a:hover {
+
+} 
+
+/* Push the rest of the content to the right to avoid overlapping */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding-top: 3.4rem;
+    padding-left: 1.2rem;
+    margin-left: 350px; /* Creates space for the navbar (slightly wider than navbar width) */
+
+}
+
+header h1 {
+   
+    font-size: 6.2rem;  
+}
+
+header p {
+ 
+    font-size: 2.0rem;
+}
