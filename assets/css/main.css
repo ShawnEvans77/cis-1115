@@ -1,13 +1,18 @@
 /* body */
 body {
     font-family: Arial, sans-serif; /* page is in arial for time being */
+    padding-left: 1.2rem;
+    margin-left: 365px; 
+}
+
+p {
+    font-size: 2.2rem;
 }
 
 /* title */
 header {
     padding-top: 3.4rem;
-    padding-left: 1.2rem;
-    margin-left: 350px; 
+
 }
 /* main title */
 header h1 {
