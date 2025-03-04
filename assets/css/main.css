@@ -9,7 +9,6 @@ nav {
     background-color: #efe4e4;
     height: 100vh;
     padding: 20px 0;
-
 }
 
 nav ul {
@@ -27,11 +26,6 @@ nav ul li a {
     padding: 10px 0 10px 15px; 
 }
 
-nav ul li a:hover {
-
-} 
-
-/* Push the rest of the content to the right to avoid overlapping */
 body {
     font-family: Arial, sans-serif;
 }
@@ -39,12 +33,10 @@ body {
 header {
     padding-top: 3.4rem;
     padding-left: 1.2rem;
-    margin-left: 350px; /* Creates space for the navbar (slightly wider than navbar width) */
-
+    margin-left: 350px; 
 }
 
 header h1 {
-   
     font-size: 6.2rem;  
 }
 
