@@ -1,7 +1,7 @@
 /* body */
 body {
     font-family: Arial, sans-serif; /* page is in arial for time being */
-    margin-left: 400px; 
+    margin-left: 380px; 
 }
 
 /* paragraph font size */
@@ -37,9 +37,7 @@ h2 {
 }
 
 /* Navbar Styling */
-
 nav {
-
     width: 350px;
     position: fixed;
     top: 0; /* page top */
@@ -54,7 +52,6 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 /* space between list items */
@@ -65,7 +62,16 @@ nav ul li {
 /* list item text information* */
 nav ul li a {
     font-size: 2.2rem;
-    padding: 10px 0 10px 15px; 
+    padding: 20px 0 10px 15px; 
+    text-decoration: none;
+    transition: color 0.9s ease, text-decoration 1.4s ease;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(158, 106, 211);
+    text-decoration: underline;
+
 }
 
 
