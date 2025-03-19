@@ -8,7 +8,7 @@ function Edit() {
     <Editor height="100vh" language="java" 
     value={'public class Main {\n \tpublic static void main(String[] args){ \n\t}\n}'}
     options={{
-      fontSize: 25,
+      fontSize: 32,
   }}
   />
   );
