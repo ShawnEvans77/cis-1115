@@ -1,78 +1,63 @@
-/* body */
+/* Existing styles remain unchanged */
 body {
-    font-family: Arial, sans-serif; /* page is in arial for time being */
-    margin-left: 380px; 
+  font-family: Arial, sans-serif;
+  margin-left: 310px;
+  margin-top: 100px;
 }
 
-/* paragraph font size */
+
+
+
 p {
-    font-size: 2.2rem;
+  font-size: 1.5rem;
 }
 
-.pagetwo {
-    margin-top: 140px;
-}
-
-/* title */
-header {
-    padding-top: 3.4rem;
-}
-
-/* main title */
 header h1 {
-    font-size: 6.2rem;  
+  font-size: 6.2rem;
 }
 
-/* subtitle */
 header p {
-    font-size: 2.0rem;
+  font-size: 2.4rem;
 }
 
 h1 {
-    font-size: 3.6rem;
+  font-size: 3.6rem;
 }
 
 h2 {
-    font-size: 3.1rem;
+  font-size: 3.1rem;
 }
 
-/* Navbar Styling */
 nav {
-    width: 350px;
-    position: fixed;
-    top: 0; /* page top */
-    left: 0; /* left navbar like x */
-    background-color: #efe4e4;
-    height: 100vh;
-    padding: 60px 0;
-    font-weight: bold;
+  width: 285px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #efe4e4;
+  height: 100vh;
+  padding: 60px 0;
+  font-weight: bold;
 }
 
-/* list properties */
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
-/* space between list items */
 nav ul li {
-    margin: 40px;
+  margin: 40px;
 }
 
-/* list item text information* */
 nav ul li a {
-    font-size: 2.2rem;
-    padding: 20px 0 10px 15px; 
-    text-decoration: none;
-    transition: color 0.9s ease, text-decoration 1.4s ease;
-    color: black;
+  font-size: 2.2rem;
+  padding: 10px 0 10px 15px;
+  text-decoration: none;
+  transition: color 0.9s ease, text-decoration 1.4s ease;
+  color: black;
 }
 
 nav ul li a:hover {
-    color: rgb(158, 106, 211);
-    text-decoration: underline;
-
+  color: rgb(158, 106, 211);
+  text-decoration: underline;
 }
-
-
 
