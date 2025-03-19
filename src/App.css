@@ -25,6 +25,39 @@ body {
   h2 {
     font-size: 2.1rem;
   }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .card1 {
+    animation: fade-up 2.1s;
+    padding-bottom: 45px;
+  }
+
+  .card2 {
+    animation: fade-up 2.1s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    padding-bottom: 45px;
+    opacity:0;
+  }
+
+  .card3 {
+    animation: fade-up 2.1s;
+    animation-fill-mode: both;
+    animation-delay: 2.5s;
+    padding-bottom: 45px;
+    opacity:0;
+  }
   
   nav {
     width: 250px;

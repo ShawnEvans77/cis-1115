@@ -7,7 +7,7 @@ import Info from './components/Info.jsx';
 
 function App() {
   return (
-    
+  
     <BrowserRouter>
     <Navbar/>
     <Routes>

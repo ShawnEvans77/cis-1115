@@ -1,9 +1,9 @@
 import '../App.css'; // Still using App.css for styles
 
-function infoCard1() {
+function InfoCard1() {
     return (
 
-        <div>
+        <div class="card1">
         <hr/ >
         <h2>cisc 1115? what's that?</h2>
         <p>cisc 1115, "introduction to programming using java", 
@@ -14,8 +14,8 @@ function infoCard1() {
         <hr/ >
         </div>
       
-       
+   
     )
 };
 
-export default infoCard1;
+export default InfoCard1;
