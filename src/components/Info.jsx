@@ -1,10 +1,11 @@
 import '../App.css'; // Still using App.css for styles
+import InfoCard1 from './InfoCard1.jsx'
 
 function Info() {
     return (
-        <div>
-        <p>im going to put the worlds best flowchart here</p>
-        </div>
+     
+        <InfoCard1/>
+    
     )
 };
 
