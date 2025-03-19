@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Nav.jsx';
 import Home from './components/Home.jsx';
 import Info from './components/Info.jsx';
+import Learn from './components/Learn.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/info" element={<Info/>} />
+      <Route path="/learn" element={<Learn/>} />
     </Routes>
     </BrowserRouter>
     

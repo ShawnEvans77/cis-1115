@@ -3,7 +3,6 @@ import InfoCard1 from './InfoCard1.jsx'
 import InfoCard2 from './InfoCard2.jsx'
 import InfoCard3 from './InfoCard3.jsx'
 
-
 function Info() {
     return (
         <>
