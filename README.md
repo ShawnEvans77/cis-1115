@@ -1,7 +1,7 @@
 # cs 1115
 this is a course website for [cs 1115.](https://websql.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=1115&div=U) cs 1115, "intro to programming using java", is the first computer science course taught in brooklyn college. 
 
-it's hosted at https://shawnevans77.github.io/cis-1115/ 
+it's hosted at https://cis-1115.vercel.app/
 
 
 ## what is in it
