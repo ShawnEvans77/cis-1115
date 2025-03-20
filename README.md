@@ -3,6 +3,7 @@ this is a course website for [cs 1115.](https://websql.brooklyn.cuny.edu/courses
 
 it's hosted at https://cis-1115.vercel.app/
 
+we are still a work in progress at this time!!!!
 
 ## what is in it
 this website has information about the course.
