@@ -1,13 +1,4 @@
 import '../App.css'; // Still using App.css for styles
-//Algorithms, 
-// computers and programs. 
-// Writing, debugging, and testing programs. 
-// Loops and conditional control structures. 
-// Method definition and parameter passing. 
-// Arrays, ArrayLists, and Strings. 
-// Sorting, searching and other basic algorithms. 
-// Input and output. Programming applications selected from various disciplines.
-//  History and basic concepts of computer science. 
 function InfoCard2() {
     return (
 

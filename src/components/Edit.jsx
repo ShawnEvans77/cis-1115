@@ -2,7 +2,6 @@
 import Editor from '@monaco-editor/react';
 import '../App.css'; // Still using App.css for styles
 
-
 function Edit() {
   return (
     <Editor height="100vh" language="java" 
