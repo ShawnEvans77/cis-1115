@@ -1,98 +1,95 @@
 /* Existing styles remain unchanged */
 body {
-    font-family: Arial, sans-serif;
-    margin-left: 290px;
-    margin-top: 75px;
-  }
-  
-  p {
-    font-size: 1.5rem;
-  }
-  
-  header h1 {
-    font-size: 7.5rem;
-  }
-  
-  header p {
-    font-size: 3.7rem;
-   
-  }
-  
-  h1 {
-    font-size: 2.6rem;
-  }
-  
-  h2 {
-    font-size: 2.1rem;
+  font-family: Arial, sans-serif;
+  margin-left: 270px;
+  margin-top: 75px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+header h1 {
+  font-size: 7.5rem;
+}
+
+header p {
+  font-size: 3.7rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
 
-  @keyframes fade-up {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
+.card1 {
+  animation: fade-up 2.1s;
+  padding-bottom: 45px;
+}
 
-  .card1 {
-    animation: fade-up 2.1s;
-    padding-bottom: 45px;
-  }
+.card2 {
+  animation: fade-up 2.1s;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+  padding-bottom: 45px;
+  opacity: 0;
+}
 
-  .card2 {
-    animation: fade-up 2.1s;
-    animation-fill-mode: both;
-    animation-delay: 1.5s;
-    padding-bottom: 45px;
-    opacity:0;
-  }
+.card3 {
+  animation: fade-up 2.1s;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+  padding-bottom: 45px;
+  opacity: 0;
+}
 
-  .card3 {
-    animation: fade-up 2.1s;
-    animation-fill-mode: both;
-    animation-delay: 2.5s;
-    padding-bottom: 45px;
-    opacity:0;
-  }
-  
-  nav {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #efe4e4;
-    height: 100vh;
-    padding: 60px 0;
-  }
+nav {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #efe4e4;
+  height: 100vh;
+  padding: 60px 0;
+}
 
 nav a {
-    font-weight: bold;
+  font-weight: bold;
 }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 40px;
-  }
-  
-  nav ul li a {
-    font-size: 1.8rem;
-    padding: 10px 0 10px 15px;
-    text-decoration: none;
-    transition: color 0.9s ease, text-decoration 1.4s ease;
-    color: black;
-  }
-  
-  nav ul li a:hover {
-    color: rgb(158, 106, 211);
-    text-decoration: underline;
-  }
-  
-  
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 40px;
+}
+
+nav ul li a {
+  font-size: 1.8rem;
+  padding: 10px 0 10px 15px;
+  text-decoration: none;
+  transition: color 0.9s ease, text-decoration 1.4s ease;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: rgb(158, 106, 211);
+  text-decoration: underline;
+}
