@@ -2,7 +2,7 @@
 import React from 'react';
 import '../App.css';
 
-export default function Contact() {
+function Contact() {
   return (
     <main className="contact-page">
       <h1>{'{'}contact{'}'}</h1>
@@ -13,20 +13,18 @@ export default function Contact() {
         
         </li>
 
-        <li><b>dep chair:</b> yedidyah langsam {' '}
-
+        <li><b>dept chair:</b> yedidyah langsam {' '}
         <a href="mailto:langsam@brooklyn.cuny.edu">(rudowsky@brooklyn.cuny.edu)</a>
-
         </li> 
 
 
         <li>
-          <b>dep chair day:</b> ira rudowsky {' '}
+          <b>dept chair day:</b> ira rudowsky {' '}
           <a href="mailto:rudowsky@brooklyn.cuny.edu">(rudowsky@brooklyn.cuny.edu)</a>
         </li>
 
         <li>
-          <b>dep chair evening:</b> joseph thurm {' '}
+          <b>dept chair evening:</b> joseph thurm {' '}
           <a href="mailto:thurm@sci.brooklyn.cuny.edu">(thurm@sci.brooklyn.cuny.edu)</a>
         </li>
 
@@ -45,3 +43,5 @@ export default function Contact() {
     </main>
   );
 }
+
+export default Contact

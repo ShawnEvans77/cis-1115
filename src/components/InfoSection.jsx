@@ -1,7 +1,7 @@
 // src/components/InfoSection.jsx
 import React from 'react';
 
-export default function InfoCards() {
+function InfoCards() {
   return (
     <>
 
@@ -42,3 +42,5 @@ export default function InfoCards() {
     </>
   );
 }
+
+export default InfoCards

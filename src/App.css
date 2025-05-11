@@ -11,13 +11,15 @@ body {
 header h1 {
   font-size: 8.1rem;
   text-align: center;
-  padding: 4rem 0 9rem;
   margin-top: 200px;
+  margin-bottom: 2.1rem;
 }
 
-header p {
-  font-size: 3.7rem;
+
+header {
+  padding: 4rem 0 10rem;
 }
+
 
 /* custom h1 and h2, potential depracation */
 h1 {
@@ -159,26 +161,60 @@ h2 {
 }
 
 .contact-container li:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.contact-container li:nth-child(2) {
   animation-delay: 0.2s;
 }
-.contact-container li:nth-child(3) {
-  animation-delay: 0.3s;
-}
-.contact-container li:nth-child(4) {
+.contact-container li:nth-child(2) {
   animation-delay: 0.4s;
 }
-.contact-container li:nth-child(5) {
-  animation-delay: 0.5s;
-}
-.contact-container li:nth-child(6) {
+.contact-container li:nth-child(3) {
   animation-delay: 0.6s;
 }
+.contact-container li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.contact-container li:nth-child(5) {
+  animation-delay: 1.0s;
+}
+.contact-container li:nth-child(6) {
+  animation-delay: 1.2s;
+}
 .contact-container li:nth-child(7) {
-  animation-delay: 0.7s;
+  animation-delay: 1.4s;
 }
 .contact-container li:nth-child(8) {
-  animation-delay: 0.8s;
+  animation-delay: 1.6s;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #535353;
+}
+
+.btn-outline {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-outline:hover {
+  background: #e8e8e8;
 }
