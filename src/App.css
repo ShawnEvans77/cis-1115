@@ -1,22 +1,25 @@
-/* Existing styles remain unchanged */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* body - my font is Inter, a google font, all rights reserved lol */
 body {
-  font-family: Arial, sans-serif;
-  margin-left: 270px;
-  margin-top: 75px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-size: 1.5rem;
-}
-
+/* css for title - h1 modified and paragraph modified*/
 header h1 {
-  font-size: 7.5rem;
+  font-size: 8.1rem;
+  text-align: center;
+  padding: 4rem 0 9rem; 
+  margin-top: 200px;
 }
 
 header p {
   font-size: 3.7rem;
 }
 
+/* custom h1 and h2, potential depracation */
 h1 {
   font-size: 2.6rem;
 }
@@ -25,71 +28,81 @@ h2 {
   font-size: 2.1rem;
 }
 
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+/* limit size of card text by forcing width*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
-.card1 {
-  animation: fade-up 2.1s;
-  padding-bottom: 45px;
+/* cards on main page */
+.info-block {
+  width: 100%;
+  padding: 6rem 0;      
+  text-align: center;
 }
 
-.card2 {
-  animation: fade-up 2.1s;
-  animation-fill-mode: both;
-  animation-delay: 1.5s;
-  padding-bottom: 45px;
-  opacity: 0;
+/* gradient */
+.block-1 { 
+  background: #f5f5f5; 
 }
 
-.card3 {
-  animation: fade-up 2.1s;
-  animation-fill-mode: both;
-  animation-delay: 2.5s;
-  padding-bottom: 45px;
-  opacity: 0;
+.block-2 { 
+  background: #eaeaea; 
 }
 
-nav {
-  width: 250px;
-  position: fixed;
+.block-3 { 
+  background: #d3d1d1; 
+}
+
+.info-block h2 {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.info-block p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+
+.navbar {
   top: 0;
   left: 0;
-  background-color: #efe4e4;
-  height: 100vh;
-  padding: 60px 0;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;  
+  display: flex;
+  padding: 2.5rem 2.5rem;  
+  width: 100%;
+  background: white;  
+  box-sizing: border-box;
+  z-index: 1000;
 }
 
-nav a {
+.navbar-brand {
   font-weight: bold;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 40px;
-}
-
-nav ul li a {
-  font-size: 1.8rem;
-  padding: 10px 0 10px 15px;
+  font-size: 1.7rem;
   text-decoration: none;
-  transition: color 0.9s ease, text-decoration 1.4s ease;
   color: black;
 }
 
-nav ul li a:hover {
-  color: rgb(158, 106, 211);
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 2rem;           
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: black;
+  transition: text-decoration 0.3s ease;
+}
+
+.navbar-nav li a:hover {
   text-decoration: underline;
 }
