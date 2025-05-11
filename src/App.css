@@ -260,12 +260,14 @@ h2 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
   text-align: center;
+      animation: fadeUp 0.7s ease-out forwards;
 }
 
 .monaco-editor-container {
   border: 1px solid #ccc;
   border-radius: 8px;
   margin-bottom: 2rem;
+        animation: fadeUp 1.9s ease-out forwards;
 }
 
 .tests-result {

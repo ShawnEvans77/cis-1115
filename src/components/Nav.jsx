@@ -8,7 +8,6 @@ function Navbar() {
       <Link to="/" className="navbar-brand">{'{'}cisc 1115{'}'}</Link>
       <ul className="navbar-nav">
         <li><Link to="/tests">tests</Link></li>
-        <li><Link to="/about">about</Link></li>
         <li><Link to="/contact">contact</Link></li>
         <li><Link to="/syllabus">syllabus</Link></li>
       </ul>
