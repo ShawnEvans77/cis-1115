@@ -104,6 +104,10 @@ h2 {
   text-decoration: underline;
 }
 
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
 .contact-page {
   padding: 4rem 2rem;
   max-width: 700px;
