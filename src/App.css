@@ -231,6 +231,7 @@ h2 {
   padding-top: 5rem;
   padding-left: 17rem;
   padding-bottom: 1.6rem;
+    animation: fadeUp 0.7s ease-out forwards;
 }
 
 .syllabus-header {
@@ -239,5 +240,37 @@ h2 {
 
 .syllabus-items {
   font-size: 1.3rem;
+}
+
+.tests-page {
+  max-width: 800px;
+  padding-top: 5rem;
+  padding-left: 21rem;
+  padding-bottom: 1.6rem;
+}
+
+.tests-page h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.3rem;
+  text-align: center;
+}
+
+.tests-page p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.monaco-editor-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.tests-result {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 

@@ -5,6 +5,7 @@ import Home from './components/Home.jsx';
 import Navbar from './components/Nav.jsx';
 import Contact from './components/Contact.jsx';
 import Syllabus from './components/Syllabus.jsx'; 
+import Tests from './components/Tests.jsx'; 
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/syllabus" element={<Syllabus/>} />
+            <Route path="/tests" element={<Tests/>} />
     </Routes>
     </BrowserRouter>
   )
