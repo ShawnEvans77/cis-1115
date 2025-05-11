@@ -6,7 +6,7 @@ function Syllabus() {
   return (
     <main className="syllabus-page">
       <div className="syllabus-header">
-        <h1>course syllabus</h1>
+        <h1>{'{'}course syllabus{'}'}</h1>
       </div>
       <div className = "syllabus-container">
       <SyllabusItems/>
