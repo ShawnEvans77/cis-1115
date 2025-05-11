@@ -21,11 +21,6 @@ header {
 }
 
 
-/* custom h1 and h2, potential depracation */
-h1 {
-  font-size: 2.6rem;
-}
-
 h2 {
   font-size: 2.1rem;
 }
@@ -135,6 +130,15 @@ h2 {
   list-style: none;
 }
 
+.syllabus-container {
+  max-width: 1000px;
+  padding: 1rem 1.5rem;
+  border-top: 1.8px solid #000;
+  border-left: 1.8px solid #000;
+  border-right: 1.8px solid #000;
+    border-bottom: 1.8px solid #000;
+}
+
 .contact-container li {
   margin: 1rem 0;
   font-size: 1.5rem;
@@ -218,3 +222,18 @@ h2 {
 .btn-outline:hover {
   background: #e8e8e8;
 }
+
+.syllabus-page {
+  padding-top: 5rem;
+  padding-left: 17rem;
+  padding-bottom: 1.6rem;
+}
+
+.syllabus-header {
+  font-size: 1.7rem;
+}
+
+.syllabus-items {
+  font-size: 1.3rem;
+}
+
