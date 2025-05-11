@@ -11,7 +11,7 @@ body {
 header h1 {
   font-size: 8.1rem;
   text-align: center;
-  padding: 4rem 0 9rem; 
+  padding: 4rem 0 9rem;
   margin-top: 200px;
 }
 
@@ -38,21 +38,21 @@ h2 {
 /* cards on main page */
 .info-block {
   width: 100%;
-  padding: 6rem 0;      
+  padding: 6rem 0;
   text-align: center;
 }
 
 /* gradient */
-.block-1 { 
-  background: #f5f5f5; 
+.block-1 {
+  background: #f5f5f5;
 }
 
-.block-2 { 
-  background: #eaeaea; 
+.block-2 {
+  background: #eaeaea;
 }
 
-.block-3 { 
-  background: #d3d1d1; 
+.block-3 {
+  background: #d3d1d1;
 }
 
 .info-block h2 {
@@ -72,11 +72,11 @@ h2 {
   left: 0;
   justify-content: space-between;
   align-items: center;
-  position: fixed;  
+  position: fixed;
   display: flex;
-  padding: 2.5rem 2.5rem;  
+  padding: 1.4rem 2.5rem;
   width: 100%;
-  background: white;  
+  background: white;
   box-sizing: border-box;
   z-index: 1000;
 }
@@ -91,7 +91,7 @@ h2 {
 .navbar-nav {
   list-style: none;
   display: flex;
-  gap: 2rem;           
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -105,4 +105,80 @@ h2 {
 
 .navbar-nav li a:hover {
   text-decoration: underline;
+}
+
+.contact-page {
+  padding: 4rem 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contact-page h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-page a {
+  font-size: 1.1rem;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-left: 1.8px solid #000;
+  border-right: 1.8px solid #000;
+  list-style: none;
+}
+
+.contact-container li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.contact-container a {
+  color: black;
+  text-decoration: underline;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.contact-container li {
+  opacity: 0;
+  animation: fadeUp 0.5s ease-out forwards;
+}
+
+.contact-container li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.contact-container li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.contact-container li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.contact-container li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.contact-container li:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.contact-container li:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.contact-container li:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.contact-container li:nth-child(8) {
+  animation-delay: 0.8s;
 }
