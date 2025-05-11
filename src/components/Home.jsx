@@ -11,6 +11,7 @@ function Home() {
           <div className="button-group">
           <Link to="/tests"   className="btn btn-primary">tests</Link>
           <Link to="/contact" className="btn btn-outline">contact</Link>
+          <Link to="/syllabus" className="btn btn-primary">syllabus</Link>
         </div>
       </header>
       <InfoSection/>
