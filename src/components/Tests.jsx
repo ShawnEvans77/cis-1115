@@ -12,6 +12,21 @@ function Tests() {
 }`
   );
 
+  const [result, setResult] = useState('');
+  const handleSubmit = async() => {
+    try {
+      const res = await fetch("http://localhost:7070/submit", {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain'},
+        body: code,
+      });
+      const text = await res.text();
+      setResult(text);
+    } catch (err) {
+      setResult('error ' + err.message);
+    }
+    
+  };
   return (
     <main className="tests-page">
       <h1>{'{'}sample exam{'}'}</h1>
@@ -34,9 +49,13 @@ function Tests() {
         />
       </div>
 
-      <div className="button-group">
+      <div className="button-group" onClick={handleSubmit}>
         <button className="btn btn-primary">Submit</button>
       </div>
+
+      <p>{result}</p>
+
+
     </main>
   );
 }
