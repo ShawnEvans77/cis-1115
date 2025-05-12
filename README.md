@@ -3,6 +3,8 @@ this is a course website for [cs 1115.](https://websql.brooklyn.cuny.edu/courses
 
 it's hosted at https://cis-1115.vercel.app/
 
+it has a backend found [here](https://github.com/ShawnEvans77/cis-1115-backend) if ur smart u can fork the project and use the backend.
+
 ## why did i make this
 
 i just thought the old website needed a facelift
