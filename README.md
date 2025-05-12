@@ -8,12 +8,6 @@ it's hosted at https://cis-1115.vercel.app/
 i just thought the old website needed a facelift
 
 ## who are u
-my name is shawn evans! i'm a senior at brooklyn college right now. 
+hi i'm shawn my linked in is [here](https://www.linkedin.com/in/shawn-a-71496412a/)
 
-i'm a cs peer mentor and [blmi](https://www.instagram.com/bcblmi/?hl=en) peer mentor at brooklyn college. 
-
-as a cs peer mentor, i work with professors in their classes to help out their students. the amount of time i spent helping other students with their coding work, was one of my motivations for wanting to make this. 
-
-as a blmi peer mentor, i work with underrepresented students. i talk to them about mental health and ways to succeed academically. 
-
-i'm not the "best" academically - i've gotten some high grades, some low grades. but what i have always had is a passion and drive for helping other people. i want to be the person i wish i had when i would struggle with classes.
+i like helping ppl out and giving up my time for other ppl
